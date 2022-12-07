@@ -35,7 +35,7 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 240px;
+    margin-top: 100px;
 }
 img {
     max-width: 90%;
@@ -44,7 +44,7 @@ img {
     cursor: pointer;
     transition: 0.5s;
 }
-.card-1 {
+.card {
     width: 333px;
     border: 1px solid black;
     display: flex;
@@ -58,28 +58,13 @@ button {
     background: inherit;
     transition: 0.5s
 }
-.card-2 {
-    display: flex;
-    flex-direction: column;
-    width: 333px;
-    border: 1px solid black;
-}
-.card-3 {
-    display: flex;
-    flex-direction: column;
-    width: 333px;
-    border: 1px solid black;
-}
-body {
-    height: 1024px;
-}
 .button {
     display: flex;
     justify-content: flex-end;
     margin-top: 23px;
 }
 button:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 img:hover {
     transform: scale(1.05);
